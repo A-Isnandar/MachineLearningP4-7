@@ -7,7 +7,7 @@ print("--- Memulai Proses Data Preparation ---")
 
 # Langkah 2 — Collection
 print("\n[Langkah 2: Collection]")
-df = pd.read_csv("./dataset/kelulusan_mahasiswa.csv")
+df = pd.read_csv("dataset/kelulusan_mahasiswa.csv")
 print("Info dataset:")
 df.info()
 print("\nData 5 baris pertama:")
@@ -57,7 +57,7 @@ df['IPK_x_Study'] = df['IPK'] * df['Waktu_Belajar_Jam']
 print("Fitur baru 'Rasio_Absensi' dan 'IPK_x_Study' telah dibuat.")
 
 # Simpan ke CSV baru
-df.to_csv("../dataset/processed_kelulusan.csv", index=False)
+df.to_csv("dataset/processed_kelulusan.csv", index=False)
 print("Data yang sudah diproses disimpan ke 'processed_kelulusan.csv'")
 
 # Langkah 6 — Splitting Dataset
