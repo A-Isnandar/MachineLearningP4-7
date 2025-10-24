@@ -119,6 +119,3 @@ Skrip ini adalah pengenalan ke *deep learning* untuk masalah klasifikasi tabular
   * **Muhamad Ario Isnandar** - [A-Isnandar](https://github.com/A-Isnandar)
 
 <!-- end list -->
-
-```
-```
